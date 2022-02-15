@@ -1,3 +1,5 @@
+#we should think here what we really need
+
 # packaging
 pip>=9
 setuptools>=26
