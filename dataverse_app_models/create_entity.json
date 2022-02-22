@@ -1,0 +1,84 @@
+POST [Organization URI]/api/data/v9.0/EntityDefinitions HTTP/1.1  
+Accept: application/json  
+Content-Type: application/json; charset=utf-8  
+OData-MaxVersion: 4.0  
+OData-Version: 4.0  
+  
+{  
+  "@odata.type": "Microsoft.Dynamics.CRM.EntityMetadata",  
+ "Attributes": [  
+  {  
+   "AttributeType": "String",  
+   "AttributeTypeName": {  
+    "Value": "StringType"  
+   },  
+   "Description": {  
+     "@odata.type": "Microsoft.Dynamics.CRM.Label",  
+    "LocalizedLabels": [  
+     {  
+       "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",  
+      "Label": "Type the name of the bank account",  
+      "LanguageCode": 1036  
+     }  
+    ]  
+   },  
+   "DisplayName": {  
+     "@odata.type": "Microsoft.Dynamics.CRM.Label",  
+    "LocalizedLabels": [  
+     {  
+       "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",  
+      "Label": "Nom du compte",  
+      "LanguageCode": 1036  
+     }  
+    ]  
+   },  
+   "IsPrimaryName": true,  
+   "RequiredLevel": {  
+    "Value": "None",  
+    "CanBeChanged": true,  
+    "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"  
+   },  
+   "SchemaName": "axi_NomCompteBancaire",  
+    "@odata.type": "Microsoft.Dynamics.CRM.StringAttributeMetadata",  
+   "FormatName": {  
+    "Value": "Text"  
+   },  
+   "MaxLength": 100  
+  }  
+ ],  
+ "Description": {  
+   "@odata.type": "Microsoft.Dynamics.CRM.Label",  
+  "LocalizedLabels": [  
+   {  
+     "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",  
+    "Label": "An entity to store information about customer bank accounts",  
+    "LanguageCode": 1036  
+   }  
+  ]  
+ },  
+ "DisplayCollectionName": {  
+   "@odata.type": "Microsoft.Dynamics.CRM.Label",  
+  "LocalizedLabels": [  
+   {  
+     "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",  
+    "Label": "Comptes Bancaires",  
+    "LanguageCode": 1036  
+   }  
+  ]  
+ },  
+ "DisplayName": {  
+   "@odata.type": "Microsoft.Dynamics.CRM.Label",  
+  "LocalizedLabels": [  
+   {  
+     "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",  
+    "Label": "Axires Compte Bancaire",  
+    "LanguageCode": 1036  
+   }  
+  ]  
+ },  
+ "HasActivities": false,  
+ "HasNotes": false,  
+ "IsActivity": false,  
+ "OwnershipType": "UserOwned",  
+ "SchemaName": "axi_BankAccount"  
+}

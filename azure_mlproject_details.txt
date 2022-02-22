@@ -1,0 +1,17 @@
+{
+  "application_insights": "/subscriptions/d008c1e7-57ab-4d3d-94f1-305bc8cc0faa/resourcegroups/azuremlopsprojectgroup/providers/microsoft.insights/components/mlprojecinsightsbde5a3c9",
+  "description": "MLProjectWS",
+  "discovery_url": "https://francecentral.api.azureml.ms/discovery",
+  "display_name": "MLProjectWS",
+  "hbi_workspace": false,
+  "id": "azureml:/subscriptions/d008c1e7-57ab-4d3d-94f1-305bc8cc0faa/resourceGroups/AzureMLOpsProjectGroup/providers/Microsoft.MachineLearningServices/workspaces/MLProjectWS",
+  "key_vault": "/subscriptions/d008c1e7-57ab-4d3d-94f1-305bc8cc0faa/resourcegroups/azuremlopsprojectgroup/providers/microsoft.keyvault/vaults/mlprojeckeyvault1252f410",
+  "location": "francecentral",
+  "mlflow_tracking_uri": "azureml://francecentral.api.azureml.ms/mlflow/v1.0/subscriptions/d008c1e7-57ab-4d3d-94f1-305bc8cc0faa/resourceGroups/AzureMLOpsProjectGroup/providers/Microsoft.MachineLearningServices/workspaces/MLProjectWS",
+  "name": "MLProjectWS",
+  "public_network_access": "Enabled",
+  "resourceGroup": "AzureMLOpsProjectGroup",
+  "resource_group": "AzureMLOpsProjectGroup",
+  "storage_account": "/subscriptions/d008c1e7-57ab-4d3d-94f1-305bc8cc0faa/resourcegroups/azuremlopsprojectgroup/providers/microsoft.storage/storageaccounts/mlprojecstorage301c5f9ca",
+  "tags": {}
+}
