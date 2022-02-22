@@ -9,10 +9,11 @@
 https://dev.azure.com/axirestech/Contract%20Manager/_boards/board/t/Contract%20Manager%20Team/Backlog%20items
 ## Validating our tasks when you commit
 There are two ways to link the work you commit to Github to the Azure Board tasks :
-- Mention the task number in your commit message like this 'Fixes AB#32'
+- Mention the task number in your commit message like this 'Updates AB#32'
 - or mention the task number the same way when you create a pull request in Github 
-This will automatically move the card to the 'Done' section of the board.
-
+You will then see a little Github icon on the task card linking back to your commits...👍 Ain't that cool or what ? 😜
+If you mention 'Fixes' as in 'Fixes AB#32', the card will automatically be moved to the 'Done' section of the board.
+How's that for tracking work that gets done ?
 
 # Startup the project
 
