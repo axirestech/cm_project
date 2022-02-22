@@ -1,10 +1,16 @@
-# Data analysis
-- Document here the project: cm_project
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+# The Contract Manager Project
+- Repo name : cm_project
+- Description: Create an NLP engine that parses contracts to retrieve relevant information
+- Data Source: Contract Understanding Atticut Dataset
+- Type of analysis: NLP
 
-Please document the project the better you can.
+# Using Azure Board to track the projects' tasks
+## Task planning is done here
+https://dev.azure.com/axirestech/Contract%20Manager/_boards/board/t/Contract%20Manager%20Team/Backlog%20items
+## Validating our tasks when you commit
+When you create a pull request in Github, add the Azure Board ticket number to the comment so that both are linked, like this
+'Fixes AB#32' if the Azure Board task number you are working on is 32
+
 
 # Startup the project
 
