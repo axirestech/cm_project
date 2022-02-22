@@ -8,8 +8,10 @@
 ## Task planning is done here
 https://dev.azure.com/axirestech/Contract%20Manager/_boards/board/t/Contract%20Manager%20Team/Backlog%20items
 ## Validating our tasks when you commit
-When you create a pull request in Github, add the Azure Board ticket number to the comment so that both are linked, like this
-'Fixes AB#32' if the Azure Board task number you are working on is 32
+There are two ways to link the work you commit to Github to the Azure Board tasks :
+- Mention the task number in your commit message like this 'Fixes AB#32'
+- or mention the task number the same way when you create a pull request in Github 
+This will automatically move the card to the 'Done' section of the board.
 
 
 # Startup the project
