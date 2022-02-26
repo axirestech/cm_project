@@ -1,0 +1,16 @@
+{
+    "axi_name": "Contrat 03",
+    "axi_effectivedate": "2021-10-01T23:00:00Z",
+    "axi_agreementdate": "2021-10-01T23:00:00Z",
+    "axi_expirationdate": "2024-12-31T23:00:00Z",
+    "axi_contractfile": null,
+    "axi_contractfile_name": null
+}
+{
+    "axi_name": "Contrat 04",
+    "axi_effectivedate": "2020-01-01T23:00:00Z",
+    "axi_agreementdate": "2019-12-31T23:00:00Z",
+    "axi_expirationdate": "2022-12-31T23:00:00Z",
+    "axi_contractfile": null,
+    "axi_contractfile_name": null
+}
